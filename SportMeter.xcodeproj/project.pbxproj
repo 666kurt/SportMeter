@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC16F1A22C09A475005CF650 /* SportMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1A12C09A475005CF650 /* SportMeterApp.swift */; };
+		FC16F1A42C09A475005CF650 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1A32C09A475005CF650 /* DashboardView.swift */; };
+		FC16F1A62C09A477005CF650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC16F1A52C09A477005CF650 /* Assets.xcassets */; };
+		FC16F1A92C09A477005CF650 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC16F1A82C09A477005CF650 /* Preview Assets.xcassets */; };
+		FC16F1B42C09A748005CF650 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1B32C09A748005CF650 /* GamesView.swift */; };
+		FC16F1B62C09A77F005CF650 /* StrategiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1B52C09A77F005CF650 /* StrategiesView.swift */; };
+		FC16F1B92C09A7AA005CF650 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1B82C09A7AA005CF650 /* SettingsView.swift */; };
+		FC16F1BB2C09A7DD005CF650 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1BA2C09A7DD005CF650 /* MainTabView.swift */; };
+		FC16F1C02C09B4EB005CF650 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1BF2C09B4EB005CF650 /* BackgroundModifier.swift */; };
+		FC16F1C32C09C448005CF650 /* DashboardBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */; };
+		FC16F1C62C09C935005CF650 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */; };
+		FC16F1C82C09CDF5005CF650 /* DashboardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC16F19E2C09A475005CF650 /* SportMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC16F1A12C09A475005CF650 /* SportMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportMeterApp.swift; sourceTree = "<group>"; };
+		FC16F1A32C09A475005CF650 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FC16F1A52C09A477005CF650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC16F1A82C09A477005CF650 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC16F1B32C09A748005CF650 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		FC16F1B52C09A77F005CF650 /* StrategiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategiesView.swift; sourceTree = "<group>"; };
+		FC16F1B82C09A7AA005CF650 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FC16F1BA2C09A7DD005CF650 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FC16F1BF2C09B4EB005CF650 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardBannerView.swift; sourceTree = "<group>"; };
+		FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
+		FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC16F19B2C09A475005CF650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC16F1952C09A475005CF650 = {
+			isa = PBXGroup;
+			children = (
+				FC16F1A02C09A475005CF650 /* SportMeter */,
+				FC16F19F2C09A475005CF650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC16F19F2C09A475005CF650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F19E2C09A475005CF650 /* SportMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC16F1A02C09A475005CF650 /* SportMeter */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1C42C09C919005CF650 /* Extensions */,
+				FC16F1BC2C09B48F005CF650 /* Modifiers */,
+				FC16F1B22C09A49E005CF650 /* Core */,
+				FC16F1B12C09A496005CF650 /* Views */,
+				FC16F1B02C09A48F005CF650 /* ViewModels */,
+				FC16F1AF2C09A488005CF650 /* Models */,
+			);
+			path = SportMeter;
+			sourceTree = "<group>";
+		};
+		FC16F1A72C09A477005CF650 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1A82C09A477005CF650 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC16F1AF2C09A488005CF650 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC16F1B02C09A48F005CF650 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC16F1B12C09A496005CF650 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1C12C09C426005CF650 /* Dashboard */,
+				FC16F1B32C09A748005CF650 /* GamesView.swift */,
+				FC16F1B52C09A77F005CF650 /* StrategiesView.swift */,
+				FC16F1B82C09A7AA005CF650 /* SettingsView.swift */,
+				FC16F1BA2C09A7DD005CF650 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC16F1B22C09A49E005CF650 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1A12C09A475005CF650 /* SportMeterApp.swift */,
+				FC16F1A52C09A477005CF650 /* Assets.xcassets */,
+				FC16F1A72C09A477005CF650 /* Preview Content */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC16F1BC2C09B48F005CF650 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1BF2C09B4EB005CF650 /* BackgroundModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FC16F1C12C09C426005CF650 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1A32C09A475005CF650 /* DashboardView.swift */,
+				FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */,
+				FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		FC16F1C42C09C919005CF650 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC16F19D2C09A475005CF650 /* SportMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC16F1AC2C09A477005CF650 /* Build configuration list for PBXNativeTarget "SportMeter" */;
+			buildPhases = (
+				FC16F19A2C09A475005CF650 /* Sources */,
+				FC16F19B2C09A475005CF650 /* Frameworks */,
+				FC16F19C2C09A475005CF650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportMeter;
+			productName = SportMeter;
+			productReference = FC16F19E2C09A475005CF650 /* SportMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC16F1962C09A475005CF650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FC16F19D2C09A475005CF650 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FC16F1992C09A475005CF650 /* Build configuration list for PBXProject "SportMeter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC16F1952C09A475005CF650;
+			productRefGroup = FC16F19F2C09A475005CF650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC16F19D2C09A475005CF650 /* SportMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC16F19C2C09A475005CF650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC16F1A92C09A477005CF650 /* Preview Assets.xcassets in Resources */,
+				FC16F1A62C09A477005CF650 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC16F19A2C09A475005CF650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC16F1B92C09A7AA005CF650 /* SettingsView.swift in Sources */,
+				FC16F1C82C09CDF5005CF650 /* DashboardInfoView.swift in Sources */,
+				FC16F1C02C09B4EB005CF650 /* BackgroundModifier.swift in Sources */,
+				FC16F1B42C09A748005CF650 /* GamesView.swift in Sources */,
+				FC16F1B62C09A77F005CF650 /* StrategiesView.swift in Sources */,
+				FC16F1A42C09A475005CF650 /* DashboardView.swift in Sources */,
+				FC16F1A22C09A475005CF650 /* SportMeterApp.swift in Sources */,
+				FC16F1C32C09C448005CF650 /* DashboardBannerView.swift in Sources */,
+				FC16F1BB2C09A7DD005CF650 /* MainTabView.swift in Sources */,
+				FC16F1C62C09C935005CF650 /* RoundedCornerShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC16F1AA2C09A477005CF650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC16F1AB2C09A477005CF650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC16F1AD2C09A477005CF650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportMeter/Core/Preview Content\"";
+				DEVELOPMENT_TEAM = CTY44DYVYJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blessthedevil.SportMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC16F1AE2C09A477005CF650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportMeter/Core/Preview Content\"";
+				DEVELOPMENT_TEAM = CTY44DYVYJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blessthedevil.SportMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC16F1992C09A475005CF650 /* Build configuration list for PBXProject "SportMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC16F1AA2C09A477005CF650 /* Debug */,
+				FC16F1AB2C09A477005CF650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC16F1AC2C09A477005CF650 /* Build configuration list for PBXNativeTarget "SportMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC16F1AD2C09A477005CF650 /* Debug */,
+				FC16F1AE2C09A477005CF650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC16F1962C09A475005CF650 /* Project object */;
+}
