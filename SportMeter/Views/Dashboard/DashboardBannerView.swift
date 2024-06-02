@@ -23,7 +23,7 @@ struct DashboardBannerView: View {
                 .font(.system(size: 60, weight: .bold))
                 .foregroundStyle(Color("tertiaryText"))
         }
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, maxHeight: 200, alignment: .top)
         .padding()
         .background(Color(bannerColor))
         .clipShape(RoundedCornerShape(radius: 24, corners: corners))

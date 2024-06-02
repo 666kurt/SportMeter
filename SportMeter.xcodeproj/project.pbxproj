@@ -19,6 +19,11 @@
 		FC16F1C32C09C448005CF650 /* DashboardBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */; };
 		FC16F1C62C09C935005CF650 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */; };
 		FC16F1C82C09CDF5005CF650 /* DashboardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */; };
+		FCF0AE632C0A109400385F62 /* MatchDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE622C0A109400385F62 /* MatchDataModel.swift */; };
+		FCF0AE652C0A10EC00385F62 /* MatchStatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE642C0A10EC00385F62 /* MatchStatisticsViewModel.swift */; };
+		FCF0AE672C0A119B00385F62 /* DashboardMatchColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE662C0A119B00385F62 /* DashboardMatchColumnView.swift */; };
+		FCF0AE6A2C0A121500385F62 /* DashboardMatchCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE692C0A121500385F62 /* DashboardMatchCellView.swift */; };
+		FCF0AE6C2C0A13C700385F62 /* DashboardMatchStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE6B2C0A13C700385F62 /* DashboardMatchStatisticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardBannerView.swift; sourceTree = "<group>"; };
 		FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInfoView.swift; sourceTree = "<group>"; };
+		FCF0AE622C0A109400385F62 /* MatchDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDataModel.swift; sourceTree = "<group>"; };
+		FCF0AE642C0A10EC00385F62 /* MatchStatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticsViewModel.swift; sourceTree = "<group>"; };
+		FCF0AE662C0A119B00385F62 /* DashboardMatchColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMatchColumnView.swift; sourceTree = "<group>"; };
+		FCF0AE692C0A121500385F62 /* DashboardMatchCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMatchCellView.swift; sourceTree = "<group>"; };
+		FCF0AE6B2C0A13C700385F62 /* DashboardMatchStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMatchStatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,7 @@
 		FC16F1AF2C09A488005CF650 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FCF0AE622C0A109400385F62 /* MatchDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		FC16F1B02C09A48F005CF650 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FCF0AE642C0A10EC00385F62 /* MatchStatisticsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -132,6 +144,7 @@
 		FC16F1C12C09C426005CF650 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				FCF0AE682C0A11E500385F62 /* MatchStatistic */,
 				FC16F1A32C09A475005CF650 /* DashboardView.swift */,
 				FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */,
 				FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */,
@@ -145,6 +158,16 @@
 				FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FCF0AE682C0A11E500385F62 /* MatchStatistic */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0AE662C0A119B00385F62 /* DashboardMatchColumnView.swift */,
+				FCF0AE692C0A121500385F62 /* DashboardMatchCellView.swift */,
+				FCF0AE6B2C0A13C700385F62 /* DashboardMatchStatisticsView.swift */,
+			);
+			path = MatchStatistic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,15 +241,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC16F1B92C09A7AA005CF650 /* SettingsView.swift in Sources */,
+				FCF0AE652C0A10EC00385F62 /* MatchStatisticsViewModel.swift in Sources */,
 				FC16F1C82C09CDF5005CF650 /* DashboardInfoView.swift in Sources */,
 				FC16F1C02C09B4EB005CF650 /* BackgroundModifier.swift in Sources */,
 				FC16F1B42C09A748005CF650 /* GamesView.swift in Sources */,
 				FC16F1B62C09A77F005CF650 /* StrategiesView.swift in Sources */,
 				FC16F1A42C09A475005CF650 /* DashboardView.swift in Sources */,
 				FC16F1A22C09A475005CF650 /* SportMeterApp.swift in Sources */,
+				FCF0AE672C0A119B00385F62 /* DashboardMatchColumnView.swift in Sources */,
 				FC16F1C32C09C448005CF650 /* DashboardBannerView.swift in Sources */,
+				FCF0AE6C2C0A13C700385F62 /* DashboardMatchStatisticsView.swift in Sources */,
 				FC16F1BB2C09A7DD005CF650 /* MainTabView.swift in Sources */,
+				FCF0AE632C0A109400385F62 /* MatchDataModel.swift in Sources */,
 				FC16F1C62C09C935005CF650 /* RoundedCornerShape.swift in Sources */,
+				FCF0AE6A2C0A121500385F62 /* DashboardMatchCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
