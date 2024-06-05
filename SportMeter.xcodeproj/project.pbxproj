@@ -19,6 +19,9 @@
 		FC16F1C32C09C448005CF650 /* DashboardBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */; };
 		FC16F1C62C09C935005CF650 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */; };
 		FC16F1C82C09CDF5005CF650 /* DashboardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */; };
+		FC17B1B72C105C7A005B91ED /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17B1B62C105C7A005B91ED /* NewGameView.swift */; };
+		FC17B1BB2C106209005B91ED /* BlackBackgroundSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17B1BA2C106209005B91ED /* BlackBackgroundSheet.swift */; };
+		FC17B1BD2C106B00005B91ED /* NewGame_TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17B1BC2C106B00005B91ED /* NewGame_TitleView.swift */; };
 		FCF0AE632C0A109400385F62 /* MatchDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE622C0A109400385F62 /* MatchDataModel.swift */; };
 		FCF0AE652C0A10EC00385F62 /* MatchStatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE642C0A10EC00385F62 /* MatchStatisticsViewModel.swift */; };
 		FCF0AE672C0A119B00385F62 /* DashboardMatchColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0AE662C0A119B00385F62 /* DashboardMatchColumnView.swift */; };
@@ -40,6 +43,9 @@
 		FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardBannerView.swift; sourceTree = "<group>"; };
 		FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		FC16F1C72C09CDF5005CF650 /* DashboardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInfoView.swift; sourceTree = "<group>"; };
+		FC17B1B62C105C7A005B91ED /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		FC17B1BA2C106209005B91ED /* BlackBackgroundSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBackgroundSheet.swift; sourceTree = "<group>"; };
+		FC17B1BC2C106B00005B91ED /* NewGame_TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGame_TitleView.swift; sourceTree = "<group>"; };
 		FCF0AE622C0A109400385F62 /* MatchDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDataModel.swift; sourceTree = "<group>"; };
 		FCF0AE642C0A10EC00385F62 /* MatchStatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticsViewModel.swift; sourceTree = "<group>"; };
 		FCF0AE662C0A119B00385F62 /* DashboardMatchColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMatchColumnView.swift; sourceTree = "<group>"; };
@@ -114,10 +120,10 @@
 		FC16F1B12C09A496005CF650 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FC17B1B42C105C4F005B91ED /* Strategies */,
+				FC17B1B32C105C43005B91ED /* Settings */,
+				FC17B1B22C105C36005B91ED /* Games */,
 				FC16F1C12C09C426005CF650 /* Dashboard */,
-				FC16F1B32C09A748005CF650 /* GamesView.swift */,
-				FC16F1B52C09A77F005CF650 /* StrategiesView.swift */,
-				FC16F1B82C09A7AA005CF650 /* SettingsView.swift */,
 				FC16F1BA2C09A7DD005CF650 /* MainTabView.swift */,
 			);
 			path = Views;
@@ -144,6 +150,7 @@
 		FC16F1C12C09C426005CF650 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				FC17B1B52C105C5F005B91ED /* NewGame */,
 				FCF0AE682C0A11E500385F62 /* MatchStatistic */,
 				FC16F1A32C09A475005CF650 /* DashboardView.swift */,
 				FC16F1C22C09C448005CF650 /* DashboardBannerView.swift */,
@@ -156,8 +163,42 @@
 			isa = PBXGroup;
 			children = (
 				FC16F1C52C09C935005CF650 /* RoundedCornerShape.swift */,
+				FC17B1BA2C106209005B91ED /* BlackBackgroundSheet.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC17B1B22C105C36005B91ED /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1B32C09A748005CF650 /* GamesView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		FC17B1B32C105C43005B91ED /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1B82C09A7AA005CF650 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FC17B1B42C105C4F005B91ED /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				FC16F1B52C09A77F005CF650 /* StrategiesView.swift */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		FC17B1B52C105C5F005B91ED /* NewGame */ = {
+			isa = PBXGroup;
+			children = (
+				FC17B1B62C105C7A005B91ED /* NewGameView.swift */,
+				FC17B1BC2C106B00005B91ED /* NewGame_TitleView.swift */,
+			);
+			path = NewGame;
 			sourceTree = "<group>";
 		};
 		FCF0AE682C0A11E500385F62 /* MatchStatistic */ = {
@@ -244,13 +285,16 @@
 				FCF0AE652C0A10EC00385F62 /* MatchStatisticsViewModel.swift in Sources */,
 				FC16F1C82C09CDF5005CF650 /* DashboardInfoView.swift in Sources */,
 				FC16F1C02C09B4EB005CF650 /* BackgroundModifier.swift in Sources */,
+				FC17B1BB2C106209005B91ED /* BlackBackgroundSheet.swift in Sources */,
 				FC16F1B42C09A748005CF650 /* GamesView.swift in Sources */,
 				FC16F1B62C09A77F005CF650 /* StrategiesView.swift in Sources */,
 				FC16F1A42C09A475005CF650 /* DashboardView.swift in Sources */,
+				FC17B1BD2C106B00005B91ED /* NewGame_TitleView.swift in Sources */,
 				FC16F1A22C09A475005CF650 /* SportMeterApp.swift in Sources */,
 				FCF0AE672C0A119B00385F62 /* DashboardMatchColumnView.swift in Sources */,
 				FC16F1C32C09C448005CF650 /* DashboardBannerView.swift in Sources */,
 				FCF0AE6C2C0A13C700385F62 /* DashboardMatchStatisticsView.swift in Sources */,
+				FC17B1B72C105C7A005B91ED /* NewGameView.swift in Sources */,
 				FC16F1BB2C09A7DD005CF650 /* MainTabView.swift in Sources */,
 				FCF0AE632C0A109400385F62 /* MatchDataModel.swift in Sources */,
 				FC16F1C62C09C935005CF650 /* RoundedCornerShape.swift in Sources */,
@@ -394,8 +438,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,8 +468,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

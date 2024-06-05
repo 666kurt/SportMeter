@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DashboardView: View {
+    
+    @State private var showingGameSheet = false
+    
     var body: some View {
         NavigationStack {
             VStack(spacing: 12) {
@@ -19,7 +22,10 @@ struct DashboardView: View {
                 }
                 .frame(height: 200)
                 .overlay(alignment: .bottom) {
-                    Button(action: {}, label: {
+                    Button(action: {
+                        // open sheet view with NewGameScreen
+                        showingGameSheet = true
+                    }, label: {
                         Text("Create game")
                             .padding()
                             .frame(maxWidth: .infinity)
@@ -42,8 +48,9 @@ struct DashboardView: View {
                 
                 Spacer()
             }
-            
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .sheet(isPresented: $showingGameSheet, content: {
+                NewGameView()
+            })
             .padding()
             .applyBackground()
             .navigationTitle("Dashboard")
