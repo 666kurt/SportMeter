@@ -49,7 +49,7 @@ struct DashboardView: View {
                 Spacer()
             }
             .sheet(isPresented: $showingGameSheet, content: {
-                NewGameView()
+                NewGameScreen()
             })
             .padding()
             .applyBackground()
